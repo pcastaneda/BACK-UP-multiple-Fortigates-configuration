@@ -1,7 +1,7 @@
 import csv
 from netmiko import ConnectHandler
 from getpass import getpass
-# Open file and read the data by column  IP, Username, Password, Hostname
+# Open the file and read the data by column  IP, Username, Password, Hostname
 def open_file(file_name):
     
         with open(file_name, 'r') as f:
